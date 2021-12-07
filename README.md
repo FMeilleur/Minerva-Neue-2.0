@@ -1,6 +1,8 @@
 # Minerva-Neue-2.0
 A modification to the MediaWiki Minerva Neue skin. Can be used on all MediaWiki projects, including Wikipedia.
 
+# FMeilleur personal modifications
+
 ![Light Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Minerva_Neue_2.0_4.1_Light.png/2560px-Minerva_Neue_2.0_4.1_Light.png)
 ![Dark Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Minerva_Neue_2.0_4.1_Dark.png/2560px-Minerva_Neue_2.0_4.1_Dark.png)
 
@@ -27,7 +29,7 @@ On Wikipedia, navigate to User Preferences and Appearance. Select Minerva Neue a
 Check back periodically for updated code which can include new features and bug fixes. It is recommended to update to the newest version as soon as it comes out. To do that, follow the instructions above again, but since the page will already exist and have code in it, this time just delete all of the exisitng code and replace it with the new code. That's it!
 
 ## Changelog
-Version 2.0: The code for this theme has been completely rewritten and is now much more efficient. It also includes a dark mode (currently experimental) that is toggled on or off in accordance with the settings of your operating system. macOS Mojave, iOS 13 and Windows 10 or higher are required. This feature also requires the latest version of Chrome, Safari or Firefox to be installed. 
+Version 2.0: The code for this theme has been completely rewritten and is now much more efficient. It also includes a dark mode (currently experimental) that is toggled on or off in accordance with the settings of your operating system. macOS Mojave, iOS 13 and Windows 10 or higher are required. This feature also requires the latest version of Chrome, Safari or Firefox to be installed.
 
 **Version 3.0:** Includes an all new navigation bar at the top left that takes up less space.
 
@@ -39,7 +41,7 @@ Version 2.0: The code for this theme has been completely rewritten and is now mu
 
 **Version 4.1:** UI tweaks to light theme for better performance, sidebar UI expanded to other information panels, and preparation for iOS 15 and macOS Monterey with meta tag theme-color.
 
-**Version 4.1.1:** A couple of bug fixes, including changes to search and the theme colour made on Wikipedia's end that are now fixed. 
+**Version 4.1.1:** A couple of bug fixes, including changes to search and the theme colour made on Wikipedia's end that are now fixed.
 
 **Version 4.1.2:** CRITICAL Bug Fixes. Wikipedia made some changes to the site on their end to the navigation bar which broke this theme. Please update to the new code as soon as possible to avoid any undesirable glitches.
 
