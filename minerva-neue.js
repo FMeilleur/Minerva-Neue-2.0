@@ -18,14 +18,13 @@ function scrollFunction() {
 				document.querySelector(".header-container").style.paddingRight = "3px";
 				document.querySelector(".header-container").style.paddingBottom = "8px";
 				document.querySelector(".header-container").style.paddingLeft = "7px";
-				document.querySelector(".minerva-user-navigation").style.display = "table-row";	
-				document.querySelector(".minerva-user-navigation").style.minWidth = "none";	
-				document.querySelector(".minerva-user-navigation").style.minHeight = "none";	
+				document.querySelector(".minerva-user-navigation").style.display = "table-row";
+				document.querySelector(".minerva-user-navigation").style.minWidth = "none";
+				document.querySelector(".minerva-user-navigation").style.minHeight = "none";
 				document.querySelector(".minerva-user-navigation").style.width = "40px";
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
 				document.querySelector(".minerva-user-navigation").style.paddingBottom = "10px";
-			
 		} else {
 				document.querySelector(".minerva-header .branding-box").style.width = "119px";
 				document.querySelector(".minerva-header .branding-box").style.height = "auto";
@@ -43,9 +42,9 @@ function scrollFunction() {
 				document.querySelector(".header-container").style.paddingRight = "16px";
 				document.querySelector(".header-container").style.paddingBottom = "5px";
 				document.querySelector(".header-container").style.paddingLeft = "16px";
-				document.querySelector(".minerva-user-navigation").style.display = "flex";	
-				document.querySelector(".minerva-user-navigation").style.minWidth = "none";	
-				document.querySelector(".minerva-user-navigation").style.minHeight = "none";	
+				document.querySelector(".minerva-user-navigation").style.display = "flex";
+				document.querySelector(".minerva-user-navigation").style.minWidth = "none";
+				document.querySelector(".minerva-user-navigation").style.minHeight = "none";
 				document.querySelector(".minerva-user-navigation").style.width = "auto";
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
@@ -77,7 +76,6 @@ function scrollFunction() {
 	}
 }
 window.onscroll = function () { scrollFunction () };
-
 /* Preparing for iOS 15 and macOS Monterey */
 const link = document.querySelector("meta[name=theme-color]");
 function lightthemecolor() {
@@ -90,13 +88,12 @@ function darkthemecolor() {
   link.content = '#3d3d3d';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
-if (window.matchMedia && 
+if (window.matchMedia &&
     window.matchMedia('(prefers-color-scheme: dark)').matches) {
   darkthemecolor();
 } else {
 	lightthemecolor();
 }
-
 function test() {
 	var elements = document.getElementsByClassName('infobox');
 	var requiredElement = elements[0];
