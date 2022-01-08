@@ -1,7 +1,7 @@
 # Minerva-Neue-2.0
 A modification to the MediaWiki Minerva Neue skin. Can be used on all MediaWiki projects, including Wikipedia.
 
-# FMeilleur personal modifications
+## FMeilleur personal modifications
 
 ![Light Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Minerva_Neue_2.0_4.1_Light.png/2560px-Minerva_Neue_2.0_4.1_Light.png)
 ![Dark Mode](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Minerva_Neue_2.0_4.1_Dark.png/2560px-Minerva_Neue_2.0_4.1_Dark.png)
