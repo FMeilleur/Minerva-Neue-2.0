@@ -25,57 +25,61 @@ function scrollFunction() {
 				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
 				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
 				document.querySelector(".minerva-user-navigation").style.paddingBottom = "10px";
-		} else {
-				document.querySelector(".minerva-header .branding-box").style.width = "119px";
-				document.querySelector(".minerva-header .branding-box").style.height = "auto";
-				document.querySelector(".overlay-header, .minerva-header").style.display = "flex";
-				document.querySelector(".branding-box img").style.opacity = "1";
-				document.querySelector(".minerva-header .branding-box").style.position = "static";
-				document.querySelector(".header-container").style.width = "350px";
-				document.querySelector(".header-container").style.height = "65px";
-				document.querySelector(".header-container").style.margin = "30px 30px 0 0";
-				document.querySelector(".header-container").style.borderRadius = "20px";
-				document.querySelector(".header-container").style.borderBottomLeftRadius = "20px";
-				document.querySelector(".overlay-header > div, .minerva-header > div, .overlay-header > .navigation-drawer, .minerva-header > .navigation-drawer").style.display = "table-cell";
-				document.querySelector(".overlay-header > div, .minerva-header > div, .overlay-header > .navigation-drawer, .minerva-header > .navigation-drawer").style.textAlign = "center";
-				document.querySelector(".header-container").style.paddingTop = "5px";
-				document.querySelector(".header-container").style.paddingRight = "16px";
-				document.querySelector(".header-container").style.paddingBottom = "5px";
-				document.querySelector(".header-container").style.paddingLeft = "16px";
-				document.querySelector(".minerva-user-navigation").style.display = "flex";
-				document.querySelector(".minerva-user-navigation").style.minWidth = "none";
-				document.querySelector(".minerva-user-navigation").style.minHeight = "none";
-				document.querySelector(".minerva-user-navigation").style.width = "auto";
-				document.querySelector(".minerva-user-navigation").style.alignItems = "center";
-				document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
-				document.querySelector(".minerva-user-navigation").style.paddingBottom = "0px";
-		}
-	} else {
-			if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-				document.querySelector(".branding-box img").style.width = "0px";
-				document.querySelector(".branding-box img").style.opacity = "0";
-				document.querySelector(".header-container").style.width = "189px";
-				document.querySelector(".header-container").style.height = "55px";
-				document.querySelector(".header-container").style.margin = "0px 0px 0px 0px";
-				document.querySelector(".header-container").style.borderRadius = "0px";
-				document.querySelector(".header-container").style.borderBottomLeftRadius = "20px";
-				document.querySelector(".header-container").style.paddingTop = "0px";
-				document.querySelector(".header-container").style.paddingBottom = "0px";
-				document.querySelector(".header-container").style.right = "0";
-		} else {
-				document.querySelector(".branding-box img").style.width = "119px";
-				document.querySelector(".branding-box img").style.opacity = "1";
-				document.querySelector(".header-container").style.width = "100%";
-				document.querySelector(".header-container").style.height = "55px";
-				document.querySelector(".header-container").style.margin = "0px";
-				document.querySelector(".header-container").style.borderRadius = "0px";
-				document.querySelector(".header-container").style.borderBottomLeftRadius = "0px";
-				document.querySelector(".header-container").style.paddingTop = "0px";
-				document.querySelector(".header-container").style.paddingBottom = "0px";
 			}
-	}
+		else {
+					document.querySelector(".minerva-header .branding-box").style.width = "119px";
+					document.querySelector(".minerva-header .branding-box").style.height = "auto";
+					document.querySelector(".overlay-header, .minerva-header").style.display = "flex";
+					document.querySelector(".branding-box img").style.opacity = "1";
+					document.querySelector(".minerva-header .branding-box").style.position = "static";
+					document.querySelector(".header-container").style.width = "350px";
+					document.querySelector(".header-container").style.height = "65px";
+					document.querySelector(".header-container").style.margin = "30px 30px 0 0";
+					document.querySelector(".header-container").style.borderRadius = "20px";
+					document.querySelector(".header-container").style.borderBottomLeftRadius = "20px";
+					document.querySelector(".overlay-header > div, .minerva-header > div, .overlay-header > .navigation-drawer, .minerva-header > .navigation-drawer").style.display = "table-cell";
+					document.querySelector(".overlay-header > div, .minerva-header > div, .overlay-header > .navigation-drawer, .minerva-header > .navigation-drawer").style.textAlign = "center";
+					document.querySelector(".header-container").style.paddingTop = "5px";
+					document.querySelector(".header-container").style.paddingRight = "16px";
+					document.querySelector(".header-container").style.paddingBottom = "5px";
+					document.querySelector(".header-container").style.paddingLeft = "16px";
+					document.querySelector(".minerva-user-navigation").style.display = "flex";
+					document.querySelector(".minerva-user-navigation").style.minWidth = "none";
+					document.querySelector(".minerva-user-navigation").style.minHeight = "none";
+					document.querySelector(".minerva-user-navigation").style.width = "auto";
+					document.querySelector(".minerva-user-navigation").style.alignItems = "center";
+					document.querySelector(".minerva-user-navigation").style.justifyContent = "flex-end";
+					document.querySelector(".minerva-user-navigation").style.paddingBottom = "0px";
+				}
+		}
+	else {
+			if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+					document.querySelector(".branding-box img").style.width = "0px";
+					document.querySelector(".branding-box img").style.opacity = "0";
+					document.querySelector(".header-container").style.width = "189px";
+					document.querySelector(".header-container").style.height = "55px";
+					document.querySelector(".header-container").style.margin = "0px 0px 0px 0px";
+					document.querySelector(".header-container").style.borderRadius = "0px";
+					document.querySelector(".header-container").style.borderBottomLeftRadius = "20px";
+					document.querySelector(".header-container").style.paddingTop = "0px";
+					document.querySelector(".header-container").style.paddingBottom = "0px";
+					document.querySelector(".header-container").style.right = "0";
+				}
+				else {
+						document.querySelector(".branding-box img").style.width = "119px";
+						document.querySelector(".branding-box img").style.opacity = "1";
+						document.querySelector(".header-container").style.width = "100%";
+						document.querySelector(".header-container").style.height = "55px";
+						document.querySelector(".header-container").style.margin = "0px";
+						document.querySelector(".header-container").style.borderRadius = "0px";
+						document.querySelector(".header-container").style.borderBottomLeftRadius = "0px";
+						document.querySelector(".header-container").style.paddingTop = "0px";
+						document.querySelector(".header-container").style.paddingBottom = "0px";
+					}
+		}
 }
 window.onscroll = function () { scrollFunction () };
+
 /* Preparing for iOS 15 and macOS Monterey */
 const link = document.querySelector("meta[name=theme-color]");
 function lightthemecolor() {
@@ -91,7 +95,8 @@ function darkthemecolor() {
 if (window.matchMedia &&
     window.matchMedia('(prefers-color-scheme: dark)').matches) {
   darkthemecolor();
-} else {
+}
+else {
 	lightthemecolor();
 }
 function test() {
